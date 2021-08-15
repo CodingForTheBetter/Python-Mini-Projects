@@ -1,5 +1,5 @@
 import random
-passlen = int(input("Enter your preferred length of password: "))
-s="abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
-p = "".join(random.sample(s,passlen ))
-print(p)
+password_length = int(input("Enter your preferred length of password: "))
+T="abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+password = "".join(random.sample(T,password_length))
+print(password)
